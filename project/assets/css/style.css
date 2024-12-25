@@ -274,16 +274,16 @@ ol {
   opacity: 1;
 }
 
-.learn-more {
-  border:2px solid var(--primary-color);
+.prim-btn {
+  border: 2px solid var(--primary-color);
   background-color: var(--primary-color);
   border-radius: 2rem;
   padding: 0.5rem 1rem;
   color: var(--white-color);
-  transition: transform 0.3s ease-in-out;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
-.learn-more:hover {
+.prim-btn:hover {
   color: var(--primary-color);
-  background-color: var(--white-color);
+  background-color: var(--white-color); 
 }
