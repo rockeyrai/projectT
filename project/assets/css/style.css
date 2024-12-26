@@ -304,3 +304,48 @@ ol {
   color: var(--primary-color);
   margin-right: 1rem;
 }
+
+.sub-feature{
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background-color: var(--primary-color);
+  margin-bottom: 10rem;
+}
+
+.sub-feature p, 
+.sub-feature h4, 
+.sub-feature h5 {
+  color: var(--white-color);
+}
+.sub-feature img{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.vertical-hr {
+  width: 3px; 
+  height: 130px;
+  background: var(--white-color); 
+  border: none;
+  border-radius: 3rem;
+  opacity: 1; 
+}
+
+.sub-feature div:first-child {
+  display: flex;
+  justify-content: end;
+  align-items: center; 
+  gap: 4rem; 
+  width: 50%;
+}
+
+.sub-feature-right{
+  width: 50%;
+  padding-right: 10rem;
+}
